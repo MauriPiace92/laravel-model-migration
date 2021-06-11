@@ -24,7 +24,7 @@
 
                 <h6>{{ $travel ->location }}</h6>
 
-                <p>{{ $travel ->descrizione }}</p>
+                <p>Descrizione: {{ $travel ->descrizione }}</p>
 
                 <h2>{{ $travel ->prezzo }} € - {{ $travel ->durata_giorni }} giorni</h2>
 
