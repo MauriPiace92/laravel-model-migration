@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1024px;
+    margin:auto;
+    text-align: center;
+    margin-top: 100px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border:1px solid aqua;
+    padding:40px;
+    h1{
+        color: orange;
+
+    }
+
+    .container-travel{
+        padding: 10px 20px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .single-travel{
+            width: calc((100% / 4) - 20px );
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: paleturquoise;
+            border: 1px solid black;
+            border-radius: 10px;
+
+            h3{
+                color:red;
+                margin-bottom: 20px;
+            }
+
+            h5,
+            h6{
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            p{
+                margin-bottom: 10px;
+
+            }
+
+            h2{
+                color: salmon;
+                text-transform: uppercase;
+                font-size: 17px;
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+}
